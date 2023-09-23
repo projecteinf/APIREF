@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "xPQkDgvrjevf60MXfp3wQ7b5ddhFn0i7VeKDh6XjXy2VbnKJHwuRL4RiR9h4j19OR5Ipte5tuSicaSD8Inq5MQ==",
+  "success": true,
+  "projectFilePath": "/home/projecteinf/Projectes/EF/APIEF/APIEF.csproj",
+  "expectedPackageFiles": [
+    "/home/projecteinf/.nuget/packages/microsoft.aspnetcore.openapi/7.0.11/microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
+    "/home/projecteinf/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/projecteinf/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/projecteinf/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/projecteinf/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/projecteinf/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/projecteinf/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
