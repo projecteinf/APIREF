@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/projecteinf/Projectes/EF/APIEF/APIEF.csproj": {}
+    "/home/projecteinf/Projectes/EF/ExempleAPIiPrograma/APIEF/APIEF.csproj": {}
   },
   "projects": {
-    "/home/projecteinf/Projectes/EF/APIEF/APIEF.csproj": {
+    "/home/projecteinf/Projectes/EF/ExempleAPIiPrograma/APIEF/APIEF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/projecteinf/Projectes/EF/APIEF/APIEF.csproj",
+        "projectUniqueName": "/home/projecteinf/Projectes/EF/ExempleAPIiPrograma/APIEF/APIEF.csproj",
         "projectName": "APIEF",
-        "projectPath": "/home/projecteinf/Projectes/EF/APIEF/APIEF.csproj",
+        "projectPath": "/home/projecteinf/Projectes/EF/ExempleAPIiPrograma/APIEF/APIEF.csproj",
         "packagesPath": "/home/projecteinf/.nuget/packages/",
-        "outputPath": "/home/projecteinf/Projectes/EF/APIEF/obj/",
+        "outputPath": "/home/projecteinf/Projectes/EF/ExempleAPIiPrograma/APIEF/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/projecteinf/.nuget/NuGet/NuGet.Config"
@@ -49,6 +49,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[7.0.11, )"
             },

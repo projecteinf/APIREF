@@ -28,7 +28,16 @@ namespace APIEF.Controllers
           {
               return NotFound();
           }
-            return await _context.Guests.ToListAsync();
+          return await _context.Guests.ToListAsync();
+            
+        }
+
+        // GET: api/Guest/Email
+        [HttpGet("Email")]
+        public async Task<ActionResult<IEnumerable<Guest>>> GetGuestsWEmail()
+        {
+            if (_context.Guests == null) { return NotFound(); }
+            return await _context.Guests.Include(g => g.Emails).ToListAsync();
         }
 
         // GET: api/Guest/5
